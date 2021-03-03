@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<extension xmlns="http://ns.adobe.com/air/extension/18.0">
+
+	<id>com.wb.software.AndroidANE</id>
+
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+
+				<nativeLibrary>AndroidANE.jar</nativeLibrary>
+				<initializer>com.wb.software.AndroidExtension</initializer>
+				<finalizer>com.wb.software.AndroidExtension</finalizer>
+
+			</applicationDeployment>
+		</platform>
+	</platforms>
+
+	<versionNumber>1.0.0</versionNumber>
+
+</extension>
